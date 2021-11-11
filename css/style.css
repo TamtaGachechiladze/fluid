@@ -1,0 +1,53 @@
+.image{
+	float: right;
+	width: 200px;
+	height: 200px;
+}
+.text{
+	float: left;
+	width: 500px;
+}
+.clear{
+	clear: both;
+}
+
+
+.text2::after{
+	content: '';
+	background-color: red;
+	width: 50px;
+	height: 3px;
+	margin: 20px auto;
+	display: block;
+}
+.text2{
+	text-align: center;
+}
+.text2::before{
+	content: '';
+	background-color: green;
+	width: 50px;
+	height: 3px;
+	margin: 20px auto;
+	display: block;
+}
+.right-wrapper{
+	float: right;
+	background-color: green;
+	width: 500px;
+}
+.left-wrapper{
+	float: left;
+	background-color: red;
+	width: 500px;
+}
+.image1{
+	float: right;
+}
+.image2{
+	float: left;
+}
+.box:after{
+	content: '';
+	display: block;
+}
